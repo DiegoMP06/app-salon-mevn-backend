@@ -11,7 +11,8 @@
     "dev": "node --watch index.js",
     "dev:postman": "node --watch index.js --postman",
     "seed:import": "node data/seed.js --import",
-    "seed:destroy": "node data/seed.js --destroy"
+    "seed:destroy": "node data/seed.js --destroy",
+    "start": "node index.js"
   },
   "author": "Diego Meneses",
   "license": "ISC",
